@@ -1,0 +1,193 @@
+:root {
+    --grassColor: rgb(155,204,80);
+    --fireColor: rgb(253,125,36);
+    --waterColor: rgb(69,146,196);
+    --bugColor: rgb(114,159,63);
+    --rockColor: rgb(163,140,33);
+    --electricColor: rgb(238,213,53);
+    --psychicColor: rgb(243,102,185);
+    --fairyColor: rgb(253,185,233);
+    --flyingColor: rgb(61,199,239);
+    --fightingColor: rgb(213,103,35);
+    --ghostColor: rgb(123,98,163);
+    --groundColor: rgb(142, 131, 81);
+    --normalColor: rgb(164,172,175);
+    --poisonColor: rgb(185,127,201);
+    --iceColor: rgb(81,196,231);
+    --dragonColor: rgb(241,110,87);
+    --steelColor: rgb(158,183,184);
+}
+
+
+.steel {
+    background-color: var(--steelColor) !important;
+}
+
+
+.electric {
+    background-color: var(--electricColor) !important;
+}
+
+
+.grass {
+    background-color: var(--grassColor) !important;
+}
+
+
+.bug {
+    background-color: var(--bugColor) !important;
+}
+
+
+.fire {
+    background-color: var(--fireColor) !important;
+}
+
+
+.rock {
+    background-color: var(--rockColor) !important;
+}
+
+
+.water {
+    background-color: var(--waterColor) !important;
+}
+
+
+.psychic {
+    background-color: var(--psychicColor) !important;
+}
+
+
+.fairy {
+    background-color: var(--psychicColor) !important;
+}
+
+
+
+.flying {
+    background-color: var(--flyingColor) !important;
+}
+
+
+.fighting {
+    background-color: var(--fightingColor) !important;
+}
+
+
+.ghost {
+    background-color:  var(--ghostColor) !important;
+}
+
+
+.ground {
+    background-color: var(--groundColor) !important;
+}
+
+
+.normal {
+    background-color: var(--normalColor) !important;
+}
+
+
+.poison {
+    background-color: var(--poisonColor) !important;
+}
+
+
+.ice {
+    background-color: var(--iceColor) !important;
+}
+
+
+.dragon {
+    background-color: var(--dragonColor) !important;
+}
+
+
+.versuch {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.electric-border {
+    border: 2px solid var(--electricColor);
+}
+
+
+.grass-border {
+    border: 2px solid var(--grassColor) !important;
+}
+
+
+.fire-border {
+    border: 2px solid var(--fireColor);
+}
+
+
+.rock-border {
+    border: 2px solid var(--rockColor);
+}
+
+
+.water-border {
+    border: 2px solid var(--waterColor);
+}
+
+
+.bug-border {
+    border: 2px solid var(--bugColor);
+}
+
+
+.psychic-border {
+    border: 2px solid var(--psychicColor);
+}
+
+
+.flying-border {
+    border: 2px solid var(--flyingColor);
+}
+
+
+.fighting-border {
+    border: 2px solid var(--fightingColor);
+}
+
+
+.ghost-border {
+    border: 2px solid var(--ghostColor);
+}
+
+
+.ground-border {
+    border: 2px solid var(--groundColor);
+}
+
+
+.normal-border {
+    border: 2px solid var(--normalColor);
+}
+
+
+.poison-border {
+    border: 2px solid var(--poisonColor);
+}
+
+
+.ice-border {
+    border: 2px solid var(--iceColor);
+}
+
+
+.dragon-border {
+    border: 2px solid var(--dragonColor);
+}
+
+
+.fairy-border {
+    border: 2px solid var(--fairyColor);
+}

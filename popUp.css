@@ -1,0 +1,184 @@
+.popUpContainer, .popUpTypesContainer {
+    width: 100%;
+    height: 88vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+
+.typesCard {
+    border-radius: 16px;
+    background-color: white;
+    width: 50%;
+    height: 70vh !important;
+    overflow-y: scroll;
+    position: relative;
+}
+
+
+.typesHeadline {
+    text-align: center;
+    margin: 8px;
+}
+
+
+.typesCloseButton {
+    height: 30px !important;
+    left: 8px !important;
+}
+
+
+.singleType {
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.popUpCard {
+    width: 50%;
+    height: 85vh !important;
+    z-index: 99;
+}
+
+
+.popUpImgContainer {
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    z-index: 10;
+}
+
+
+.popUpID {
+    position: absolute;
+    left: 8px;
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 80px;
+    z-index: 20;
+}
+
+
+.popUparrows {
+    height: 80px;
+    transition: all 0.75s;
+}
+
+
+.popUparrows:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.popUpImg {
+    height: 40vh;
+    z-index: 99;
+}
+
+
+.popUpNameContainer {
+    background-color: white;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    margin-top: -24px;
+    z-index: 80 !important;
+}
+
+
+.popUpName {
+    margin: 16px;
+}
+
+
+
+
+.aboutContainer, .statsContainer, .movesContainer, .abilitiesContainer {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    height: auto;
+}
+
+
+.aboutList {
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-bottom: 0;
+
+}
+
+
+.statsContainer {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+
+.skillContainer {
+    gap: 8px;
+}
+
+
+.singleSkillContainer {
+    width: 100%;
+}
+
+
+.skillName {
+    margin-top: -5px !important;
+    margin-bottom: 8px;
+}
+
+
+.movesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 47vh;
+    overflow-y: scroll;
+}
+
+
+.singleMoveContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border-radius: 16px;
+    margin: 8px;
+    padding: 8px;
+}
+
+
+.popUpCloseButton {
+    height: 42px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+
+.popUpCloseButton:hover {
+    transform: scale(1.1);
+    transition: all 0.75s;
+}
+
+
+.popUpTypesContainer {
+    font-size: 24px !important;
+    width: 100%;
+}
+
+
+.popUptype {
+    border-radius: 24px !important;
+}
+
+
+
+
